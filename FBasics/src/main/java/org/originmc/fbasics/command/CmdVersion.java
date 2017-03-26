@@ -9,9 +9,9 @@ import static org.bukkit.ChatColor.*;
 public final class CmdVersion extends CommandExecutor {
 
     public static final ImmutableList<String> VERSION_MESSAGE = ImmutableList.of(
-            GOLD + "FBASICS " + DARK_GRAY + "// " + WHITE + "Using version {version}",
-            GOLD + "FBASICS " + DARK_GRAY + "// " + WHITE + "Written by Sudzzy",
-            GOLD + "FBASICS " + DARK_GRAY + "// " + WHITE + "Website: " + GRAY + "http://originmc.org/"
+            DARK_GREEN + "DreamRaids " + DARK_GRAY + "// " + WHITE + "Using version 1.1",
+            DARK_GREEN + "DreamRaids " + DARK_GRAY + "// " + WHITE + "Written by Road",
+            DARK_GREEN + "DreamRaids " + DARK_GRAY + "// " + WHITE + "Website: " + GRAY + "http://dreamraids.co/"
     );
 
     public CmdVersion(FBasics plugin, CommandSender sender, String[] args, String permission) {
